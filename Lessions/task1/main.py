@@ -51,7 +51,7 @@ while i  < 5:
     if i == 3:
         break
     i += 1
-else
+else:
     print('fdfd')
     print('gffg')
 print(i)
@@ -63,9 +63,9 @@ while flag:
     if n % i == 0 # если остаток при делении числа n на i равен 0
     flag = False
     print(i)
-else i > n // 2 # делитель числа не может превышать введенное число, деленное на 2   
-    print(n)
-    flag = False
+else: i > n // 2 # делитель числа не может превышать введенное число, деленное на 2   
+print(n)
+flag = False
 i += 1
 
 f = range(5) # 0,1,2,3,4    
