@@ -53,7 +53,7 @@
 #
 # print(a, b, c)
 #
-# t = (1,3,5,6,)
+# t = (1,3,5,6)
 #
 # for i in t:
 #     print(i)
